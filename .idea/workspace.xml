@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b8a32a-b50f-4df7-8a68-430a351daf01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/MakeApiCall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/RequireAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/Unauthorized.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/FooterBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/SideNav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/TopNav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tables/GenericTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/AuthProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/DateFormate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/TextSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/GetInternalAccounts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/states/UserStates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddExternalAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddInternalAccounts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CounterParty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MakePayment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/TopNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/TopNav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/odyssey/Documents/odyssey/payment_gateway/modern_treaury/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/odyssey/Documents/odyssey/payment_gateway/modern_treaury/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/276/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -85,7 +71,10 @@
       <option name="presentableId" value="Default" />
       <updated>1661881512713</updated>
       <workItem from="1661881520215" duration="31164000" />
-      <workItem from="1662023273887" duration="3668000" />
+      <workItem from="1662023273887" duration="5228000" />
+      <workItem from="1662207251847" duration="3831000" />
+      <workItem from="1662843714755" duration="7757000" />
+      <workItem from="1662896534917" duration="5041000" />
     </task>
     <servers />
   </component>
